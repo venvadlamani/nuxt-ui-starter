@@ -1,8 +1,20 @@
 <template>
-    <div class="container bg-gray-100 text-gray-900 min-h-screen">
-        <h1>hello world</h1>
-    </div>
+  <div id="app">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+    <UNotifications />
+  </div>
 </template>
-<script setup>
-const user = useSupabaseUser();
-</script>
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>
