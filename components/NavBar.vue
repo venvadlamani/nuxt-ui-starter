@@ -28,7 +28,7 @@
                 color="gray"
                 variant="ghost"
                 label="Dashboard"
-                @click.prevent="navigateTo('/user/dashboard')"
+                @click.prevent="navigateTo('/')"
                 :trailing="false"
               />
             </li>
@@ -74,21 +74,14 @@ const items = [
       avatar: {
         src: 'https://avatars.githubusercontent.com/u/739984?v=4',
       },
-      to: '/user/profile',
+      to: '/profile',
     },
   ],
   [
     {
       label: 'Appointments',
       icon: 'i-heroicons-calendar-days-20-solid',
-      to: '/user/appointments',
-    },
-  ],
-  [
-    {
-      label: 'Messages',
-      icon: 'i-heroicons-chat-bubble-left-ellipsis-20-solid',
-      to: '/user/messages',
+      to: '/appointments',
     },
   ],
   [
