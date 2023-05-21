@@ -88,7 +88,7 @@ const items = [
     {
       label: 'Support',
       icon: 'i-heroicons-question-mark-circle-20-solid',
-      to: '/user/support',
+      to: '/support',
     },
   ],
 ];
