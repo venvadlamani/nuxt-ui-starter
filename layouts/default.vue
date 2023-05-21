@@ -3,7 +3,7 @@
     <div class="bg-gray-100 dark:bg-gray-800">
       <div
         class="
-          container
+          max-w-4xl
           flex flex-col
           min-h-screen
           px-4
@@ -12,8 +12,6 @@
           sm:px-10
         "
       >
-        <!-- <NavBanner class="flex-none sm:px-12" /> -->
-
         <header class="flex-none sm:px-12">
           <NavBar />
         </header>
