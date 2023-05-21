@@ -34,7 +34,6 @@
             </li>
             <li>
               <UDropdown
-                ref="accountDropdown"
                 class="cursor-pointer"
                 :items="items"
                 :popper="{ placement: 'bottom-start' }"
