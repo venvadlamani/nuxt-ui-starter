@@ -67,6 +67,7 @@
   </nav>
 </template>
 <script setup lang="ts">
+const toast = useToast();
 const items = [
   [
     {
@@ -92,5 +93,9 @@ const items = [
     },
   ],
 ];
+
+function signout() {
+  toast.add({ title: 'Bye!' });
+}
 </script>
 ```
